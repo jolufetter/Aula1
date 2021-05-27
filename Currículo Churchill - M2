@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>M. Shadows</title>
+
+</head>
+
+
+<style>
+
+    body {
+    font-family: 'Merriweather',serif;
+    }
+
+    .pagina {
+        border: 1px solid;
+        width: 600px;
+        height: 800px;
+    }
+
+    .div-esquerda {
+        background-color: #523c27;
+        width: 300px;
+        color: #e6e6e6;
+        float: left;
+        height: 100%;
+    }
+
+    h1 {
+        line-height: 0px;
+        margin-top: 50px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 900;
+    }
+
+    h3 { 
+        text-align: center;
+        font-weight: 900;
+    }
+
+    h4 {
+        line-height: 0px;
+        margin-top: 30px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+
+    .margem-esquerda {
+        margin: 20px;
+    }
+
+    p {
+        text-align: justify;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .div-direita {
+        background-color: #ffffff;
+        width: 300px;
+        color: #5f4731;
+        float: right;
+        height: 100%;
+    }
+
+    .margem-direita {
+        margin: 42px 20px 0px 20px;
+    }
+
+    .titulo-direita {
+        background-color: #412e1d;
+        padding: 15px;
+        text-align: center;
+    }
+
+</style>
+
+
+<body>
+   
+   <div class="pagina">
+       <div class="div-esquerda">
+           <img src="https://i.imgur.com/7y02765.png" 
+           alt="Imagem de Winston Churchill">
+           <div class="margem-esquerda">
+            <h1>Churchill</h1>
+            <h3>Primeiro-Ministro</h3>
+            <h4>Sobre</h4>
+            <p> 
+                <b>Sir Winston Leonard Spencer-Churchill</b>, 
+                foi um político conservador e estadista britânico,
+                famoso principalmente por sua atuação como primeiro-ministro 
+                do Reino Unido durante a Segunda Guerra Mundial. Ele foi primeiro-ministro
+                britânico por duas vezes.
+              
+            </p>   
+            
+            <h4>Contato</h4>
+            <p>
+            7418 Woodstock, Oxfordshire,, UK <br/>
+            E-mail: churchill65@uk.com <br/>
+            winstonchurchill.com 
+            </p> 
+
+
+            </div>
+       </div>
+
+       <div class="div-direita">
+           <div class="margem-direita">
+            <h4 class="titulo-direita"> Realizações</h4>
+            <p>Primeiro Lorde do Almirantado na Primeira Guerra Mundial. <p>
+            <p>Primeiro-Ministro do Reino Unido. </p>
+            <p>Recebeu o Nobel de Literatura de 1953. </p>
+
+            <h4 class="titulo-direita"> Obras literrárias</h4>
+            <p><b>1958:</b> Uma História dos Povos de Língua Inglesa <p>
+            <p><b>1946:</b> Memórias da Segunda Guerra Mundial <p></p>
+            <p><b>1967:</b> Minha mocidade. <p></p>
+            <p><b>1953:</b> A Segunda Guerra Mundial<p></p>
+
+            <h4 class="titulo-direita"> Graduação</h4>
+            <p><b>1899 - 1924:</b><br/>
+                Tenente-coronel <br/>
+           </div>
+       </div>
+
+   </div> 
+
+</body>
+</html>
